@@ -18,6 +18,23 @@ public:
     int luasPp(int a,int b)
     {
         return a * b;
-    
+    }
+    //lingkaran ol;
+};
+
+class lingkaran
+{
+public :
+    int jarijari;
+
+    void input()
+    {
+        cout << "Masukkan jarijari:";
+        cin >> jarijari;
+    }
+
+    int luaslingkaran(int r)
+    {
+        return 3.14 * r * r;
     }
 };
